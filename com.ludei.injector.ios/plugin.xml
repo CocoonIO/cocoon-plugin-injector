@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.ludei.injector.ios" version="1.0.0">
+        
+    <name>Canvas+ Injector</name>
+    <description>Cocoon Canvas+ Webview Engine</description>
+    <license>MPL 2.0</license>
+    <keywords>cordova, ludei, cocoon, development, canvas+, canvas plus, ios</keywords>
+
+    <platform name="ios">
+        <dependency id="cocoon-plugin-canvasplus-common" />
+        <header-file src="src/CocoonInjector.h" />
+        <source-file src="src/CocoonInjector.m" />
+    </platform>
+</plugin>
